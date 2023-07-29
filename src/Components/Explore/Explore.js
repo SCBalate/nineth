@@ -21,7 +21,7 @@ export const Explore = () => {
   return (
     <>
       <h1>Explore</h1>
-      <SearchComponent onSearch={handleSearch} />
+      <SearchComponent onSearch={handleSearch} serch={searchQuery}/>
 
       <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
         {video.map((video) => (

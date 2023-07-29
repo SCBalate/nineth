@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Sidenav from '../Sidenav/Sidenav';
+
 import "./VideosPage.css"
 
 const VideosPage = ({ videos }) => {

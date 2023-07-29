@@ -1,6 +1,6 @@
 import React from "react";
 import "./Homepage.css";
-import Sidenav from "../Sidenav/Sidenav";
+
 import Categories from "../Categories/Categories";
 
 
